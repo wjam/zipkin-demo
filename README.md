@@ -9,3 +9,4 @@ To run:
 * build and run applications
 * `curl http://localhost:8081/api/users/1`
 * Go to http://localhost:8080 to view the traces
+* Delete `zipkin/zipkin.db` to clear out data
