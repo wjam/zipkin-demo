@@ -1,0 +1,3 @@
+[submodule "zipkin"]
+	path = zipkin
+	url = git@github.com:twitter/zipkin.git

@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/recommendations?statementInterceptors=com.github.kristofa.brave.mysql.MySQLStatementInterceptor
+    username:
+    password:
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: false
+    hibernate.ddl-auto: none
+
+# Liquibase configuration file location
+liquibase.change-log: classpath:/db-changelog.xml
